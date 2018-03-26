@@ -1,0 +1,13 @@
+{
+  "name": "signifyd-demo-app",
+  "version": "1.0.0",
+  "description": "demo-app",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "signifyd-demo": "../signifyd-demo"
+  }
+}
