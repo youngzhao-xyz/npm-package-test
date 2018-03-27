@@ -6,11 +6,11 @@ const SRC_DIR = path.resolve(__dirname, './src');
 
 const config = {
   entry: {
-    app: SRC_DIR +'/index.js'
+    index: SRC_DIR +'/index.js'
   },
   output: {
     path: DIST_DIR,
-    filename: '[name].min.js'
+    filename: 'index.js'
   },
   resolve: {
     extensions: ['.js'],
