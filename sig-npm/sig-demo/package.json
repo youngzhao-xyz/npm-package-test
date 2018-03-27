@@ -1,5 +1,5 @@
 {
-  "name": "signifyd-demo",
+  "name": "sig-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/youngzhaosignifyd/npm-package-test/issues"
   },
-  "homepage": "https://github.com/youngzhaosignifyd/npm-package-test#readme"
+  "homepage": "https://github.com/youngzhaosignifyd/npm-package-test#readme",
+  "peerDependencies": {
+    "axios": "<0.10.0"
+  }
 }

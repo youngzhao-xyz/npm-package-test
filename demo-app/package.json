@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "signifyd-demo": "../signifyd-demo"
+    "sig-demo": "../sig-npm/sig-demo",
+    "axios": "~0.18.0"
   }
 }
