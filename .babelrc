@@ -1,0 +1,8 @@
+{
+  "presets": [
+    "env"
+  ],
+  "retainLines": true,
+  "comments": true,
+  "plugins": []
+}
