@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sig-demo": "../sig-npm/sig-demo",
+    "sig-demo": "git+https://github.com/youngzhaosignifyd/npm-package-test.git#sig-demo-v1.0.0-gitpkg",
     "axios": "~0.18.0"
   }
 }

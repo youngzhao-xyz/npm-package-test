@@ -1,10 +1,12 @@
 {
   "name": "sig-demo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitpkg": "gitpkg",
+    "github-release-cli": "github-release-cli"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/youngzhaosignifyd/npm-package-test#readme",
   "peerDependencies": {
     "axios": "<0.10.0"
+  },
+  "devDependencies": {
+    "github-release-cli": "^0.3.0",
+    "gitpkg": "^1.0.0-beta.1"
   }
 }
