@@ -1,11 +1,12 @@
 {
   "name": "sig-demo",
-  "version": "1.6.0",
+  "version": "1.9.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "gitpkg": "gitpkg",
     "build": "rm -rf dist && webpack --mode production --config webpack.config.production.js",
-    "publish": "npm run build && gitpkg publish"
+    "release": "npm run build && gitpkg -- publish"
   },
   "repository": {
     "type": "git",
