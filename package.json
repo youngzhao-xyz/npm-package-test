@@ -1,0 +1,26 @@
+{
+  "name": "sig-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitpkg": "gitpkg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngzhaosignifyd/npm-package-test.git"
+  },
+  "author": "Signifyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngzhaosignifyd/npm-package-test/issues"
+  },
+  "homepage": "https://github.com/youngzhaosignifyd/npm-package-test#readme",
+  "peerDependencies": {
+    "axios": "<0.10.0"
+  },
+  "devDependencies": {
+    "gitpkg": "^1.0.0-beta.1"
+  }
+}
