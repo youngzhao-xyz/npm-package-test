@@ -1,2 +1,2 @@
-const { printMsg } = require('signifyd-demo');
+const { printMsg } = require('sig-demo');
 printMsg('test');
