@@ -1,12 +1,10 @@
 {
   "name": "sig-demo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "gitpkg": "gitpkg",
-    "github-release-cli": "github-release-cli"
+    "gitpkg": "gitpkg"
   },
   "repository": {
     "type": "git",
@@ -22,7 +20,6 @@
     "axios": "<0.10.0"
   },
   "devDependencies": {
-    "github-release-cli": "^0.3.0",
     "gitpkg": "^1.0.0-beta.1"
   }
 }
