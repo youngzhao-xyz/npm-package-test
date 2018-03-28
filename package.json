@@ -1,0 +1,32 @@
+{
+  "name": "sig-demo",
+  "version": "2.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "gitpkg": "gitpkg",
+    "build": "rm -rf dist && webpack --config webpack.config.production.js",
+    "release": "npm run build && gitpkg -- publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngzhaosignifyd/npm-package-test.git"
+  },
+  "author": "Signifyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngzhaosignifyd/npm-package-test/issues"
+  },
+  "homepage": "https://github.com/youngzhaosignifyd/npm-package-test#readme",
+  "peerDependencies": {
+    "axios": "<0.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "gitpkg": "^1.0.0-beta.1",
+    "webpack": "^3.9.1"
+  }
+}
