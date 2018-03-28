@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "demo-app",
   "scripts": {
-    "start": "node app"
+    "start": "webpack-dev-server --inline --config webpack.config.local.js --progress"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sig-demo": "git+https://github.com/youngzhaosignifyd/npm-package-test.git#sig-demo-v1.2.0-gitpkg",
-    "axios": "~0.18.0"
+    "axios": "~0.18.0",
+    "sig-demo": "git+https://github.com/youngzhaosignifyd/npm-package-test.git#sig-demo-v2.0.0-gitpkg"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
   }
 }

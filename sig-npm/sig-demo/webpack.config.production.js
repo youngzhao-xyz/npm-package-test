@@ -6,11 +6,15 @@ const SRC_DIR = path.resolve(__dirname, './src');
 
 const config = {
   entry: {
-    index: SRC_DIR +'/index.js'
+    index: path.join(SRC_DIR, 'index.js')
   },
   output: {
     path: DIST_DIR,
-    filename: 'index.js'
+    filename: '[name].js',
+    chunkFilename: '[name].js',
+    library: 'sigDemo',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   resolve: {
     extensions: ['.js'],
@@ -21,7 +25,7 @@ const config = {
       {
         test: /^((?!\.test\.).)*\.js$/,
         exclude: /node_modules/,
-        include : SRC_DIR,
+        include: SRC_DIR,
         use: {
           loader: 'babel-loader'
         }
